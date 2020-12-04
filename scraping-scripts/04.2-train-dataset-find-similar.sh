@@ -1,0 +1,1 @@
+python similar_search_script.py train-positive-pairs.csv sim-pairs-60.csv -w 3 -t 0.6

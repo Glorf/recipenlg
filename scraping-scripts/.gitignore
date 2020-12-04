@@ -1,0 +1,13 @@
+*.txt
+*.json
+*.csv
+*.tar.xz
+*.jl
+*.jsonl
+*.log
+0-*
+*.ipynb_checkpoints*
+*.tar.gz
+*.old
+*.png
+*.tex
