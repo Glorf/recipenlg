@@ -8,8 +8,16 @@ Please visit the website of our project: [recipenlg.cs.put.poznan.pl](https://re
 
 ## Where are your models?
 
-We plan to publish our GPT-2 finetuned models soon in huggingface repository, stay tuned! Meanwhile, you can check the generation performance interactively on our website (link above).  
-The SpaCy NER model is already availabel in the `ner` directory
+The pyTorch model is available in HuggingFace model hub as [mbien/recipenlg](https://huggingface.co/mbien/recipenlg). You can therefore easily import it into your solution as follows:
+
+```
+from transformers import AutoTokenizer, AutoModelWithLMHead
+tokenizer = AutoTokenizer.from_pretrained("mbien/recipenlg")
+model = AutoModelWithLMHead.from_pretrained("mbien/recipenlg")
+```
+
+You can also check the generation performance interactively on our website (link above).  
+The SpaCy NER model is available in the `ner` directory
 
 ## Could you explain X andy Y?
 
