@@ -23,7 +23,7 @@ model = AutoModelWithLMHead.from_pretrained("mbien/recipenlg")
 You can also check the generation performance interactively on our website (link above).  
 The SpaCy NER model is available in the `ner` directory
 
-## Could you explain X andy Y?
+## Could you explain X and Y?
 
 Yes, sure! If you feel some information is missing in our paper, please check first in our [thesis](https://www.researchgate.net/publication/345308878_Cooking_recipes_generator_utilizing_a_deep_learning-based_language_model), which is much more detailed. In case of further questions, you're invited to send us a github issue, we will respond as fast as we can!
 
