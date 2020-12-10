@@ -8,7 +8,8 @@ The dataset we publish contains 2231142 cooking recipes (>2 millions). It's proc
 
 ## Where is the dataset?
 
-Please visit the website of our project: [recipenlg.cs.put.poznan.pl](https://recipenlg.cs.put.poznan.pl/) to download it.
+Please visit the website of our project: [recipenlg.cs.put.poznan.pl](https://recipenlg.cs.put.poznan.pl/) to download it.  
+**NOTE:** The dataset contains all the data we gathered including from other datasets. To access only our gathered recipes (with no 12 instead of 1/2 etc), filter the dataset for source=Gathered. It results in approx 1.6M recipes of better quality.
 
 ## Where are your models?
 
