@@ -2,7 +2,17 @@
 
 This is an archive of code which was used to produce dataset and results available in our INLG 2020 paper: [RecipeNLG: A Cooking Recipes Dataset for Semi-Structured Text Generation](https://www.aclweb.org/anthology/2020.inlg-1.4.pdf)
 
-To cite the paper, use the following BibTeX entry:
+## What's exciting about it?
+
+The dataset we publish contains 2231142 cooking recipes (>2 millions). It's processed in more careful way and provides more samples than any other dataset in the area.
+
+## Where is the dataset?
+
+Please visit the website of our project: [recipenlg.cs.put.poznan.pl](https://recipenlg.cs.put.poznan.pl/) to download it.  
+**NOTE:** The dataset contains all the data we gathered including from other datasets. To access only our gathered recipes (with no 12 instead of 1/2 etc), filter the dataset for source=Gathered. It results in approx 1.6M recipes of better quality.
+
+## I've used the dataset in my research. How to cite you?
+Use the following BibTeX entry:
 
 ```
 @inproceedings{bien-etal-2020-recipenlg,
@@ -22,15 +32,6 @@ To cite the paper, use the following BibTeX entry:
     pages = "22--28",
 }
 ```
-
-## What's exciting about it?
-
-The dataset we publish contains 2231142 cooking recipes (>2 millions). It's processed in more careful way and provides more samples than any other dataset in the area.
-
-## Where is the dataset?
-
-Please visit the website of our project: [recipenlg.cs.put.poznan.pl](https://recipenlg.cs.put.poznan.pl/) to download it.  
-**NOTE:** The dataset contains all the data we gathered including from other datasets. To access only our gathered recipes (with no 12 instead of 1/2 etc), filter the dataset for source=Gathered. It results in approx 1.6M recipes of better quality.
 
 ## Where are your models?
 
